@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.a1,.a2 {
+  background-color: black;
+  padding: 1.1em;
+  display: inline-flex;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.a1:hover,.a2:hover {
+  color: gray;
+}
+
+p {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 150%;
+}
+
+.div2 {
+  margin-top: 600px
+}
+
+code {
+  font-size: 175%;
+  margin-left: 60px;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+}
+
+#section1 {
+  background-color: black;
+  margin: -315px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#section2 {
+  background-color: aqua;
+  color: black;
+  margin: -315px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.div3 {
+  margin-top: 500px;
+  margin-bottom: 200px
+}
+
+.naglowek {
+  margin-top: 300px
+}
+
+#back {
+  font-size: 80%;
+  margin-left: 50px;
+  cursor:pointer;
+  transition: 0.3s
+}
+
+#back:hover {
+  color: indianred
+}
+
+
+#a11 {
+  color:black;
+  transition: 0.3s
+}
+
+#a11:hover,#a12:hover {
+  color:indianred
+}
+
+#a12 {
+  color:white;
+  transition: 0.3s
+}
